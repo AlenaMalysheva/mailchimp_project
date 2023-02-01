@@ -1,0 +1,20 @@
+/* div первый уровень вложенности */
+.main_header > div { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     background-color: aqua;
+     padding: 17px 39px;
+}
+
+.info_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  
+}
+
+.icon_glob {
+    color: white;
+}
