@@ -3,10 +3,10 @@ import Button from '../Button'
 import Nav from '../Nav'
 import s from './index.module.css'
 import logo from '../../media/logo_site.png'
-import {BsGlobe2} from 'react-icons/bs'
+import { BsGlobe2 } from 'react-icons/bs'
+
 export default function Header() {
 
-const sales = 'Sales:\n+1 (800) 315-5939'
 
   return (
     <header className={s.main_header}>
