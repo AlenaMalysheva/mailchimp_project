@@ -1,0 +1,63 @@
+.plans_block {
+    background-color: #F6F6F4 ;
+    padding: 80px 0;
+    position: relative;
+}
+
+.plans_block > div{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.plans_block h2 {
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.cards_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 82px 0 15px;
+}
+
+/* .recommend {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    border: 1px solid #BCBAB8;
+    background-color: #C5DBF2;
+    padding: 9px 70px;
+    width: 288px;
+    position: absolute;
+    top: 175px;
+    left: 414px;
+}   */
+
+.additional_info {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: rgba(36, 28, 21, 0.65);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.additional_info p:first-child {
+    color: #241C15;
+}
+
+.additional_info a {
+    color: rgba(36, 28, 21, 0.65)
+}
+
+.plans_block Button {
+        margin: 0 auto;
+}
+
+.additional_block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 23px;
+}

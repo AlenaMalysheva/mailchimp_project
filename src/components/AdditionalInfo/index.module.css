@@ -1,0 +1,22 @@
+.additionalInfo_block{
+    background-color: #F6F6F4;
+    padding: 40px 0;
+}
+
+.additionalInfo {
+    width: 1150px;
+    margin: 0 auto;
+    font-size: 10px;
+  font-weight: 400;
+}
+
+.disclaimers_info {
+    margin-bottom: 12px;
+    width: 991px;
+}
+
+.terms_info {
+    width: 1050px;
+}
+
+

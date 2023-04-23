@@ -1,0 +1,33 @@
+.card_item {
+    font-size: 13px;
+    color: #241C15;
+    text-decoration: underline;
+    padding: 18px 0 17px 30px;
+    border-bottom: 1px solid black;
+
+}
+
+ .item_false {
+    color: rgba(36, 28, 21, 0.3);
+    text-decoration: none;
+}
+
+ .card_item:nth-child(2) {
+    height: 70px;
+}
+
+/* .card_item:nth-child(3) {
+    height: 54px;
+} */
+
+.card_item:nth-child(4) {
+    height: 73px;
+}
+
+/* .card_item:nth-child(5) {
+    height: 66px; 
+} */
+
+.card_item:last-child {
+    border-bottom: none;
+} 
